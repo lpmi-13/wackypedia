@@ -26,7 +26,6 @@ for link in links:
 
         paragraph_text += paragraph.getText()
 
-#    print(content)
     print('creating file for', link[6:])
     file_name = link[6:]
     with open(file_path + file_name + '.txt', 'w') as page_file:
